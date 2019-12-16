@@ -1,0 +1,12 @@
+{
+    "app": {
+        "my_sql_connection": {
+            "host": "localhost",
+            "user": "test",
+            "password": "test12345678",
+            "database": "test16"
+        },
+        "my_sql_import_path": "IMPORT_DATA/books.csv",
+        "server_port": 3000
+    }
+}
