@@ -21,27 +21,27 @@ Path - "/books"
 
 Method - GET
 Query parameters example:
-where: {"title":"The Odyssey 66"} // For where using 1 field (title, author, description, image)
-date: {"from":"2000-01-21","to":"2005-07-22"} // Date only ISO8601
-orderby: {"id":"ASC","title":"DESC"} // Any fields
-offset: 0 *
-limit: 10 *
+- where: {"title":"The Odyssey 66"} // For where using 1 field (title, author, description, image)
+- date: {"from":"2000-01-21","to":"2005-07-22"} // Date only ISO8601
+- orderby: {"id":"ASC","title":"DESC"} // Any fields
+- offset: 0 *
+- limit: 10 *
 
 Method - POST
 Body form-data example:
-title: "Book title" * 
-date: "2028-08-20" * 
-author: "Author name" *
-description: "This book is published..." *
-image: "set path to default png image" *
+- title: "Book title" * 
+- date: "2028-08-20" * 
+- author: "Author name" *
+- description: "This book is published..." *
+- image: "set path to default png image" *
 
 Method - PUT
 Body form-data example:
-id: 1 *
-title: "Book title"
-date: "2028-08-20"
-author: "Author name"
-description: "This book is published..."
-image: "set path to default png image"
+- id: 1 *
+- title: "Book title"
+- date: "2028-08-20"
+- author: "Author name"
+- description: "This book is published..."
+- image: "set path to default png image"
 
 * - required field
