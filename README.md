@@ -5,9 +5,9 @@ This is test task for Node.js
 Create http-server on base framework koa2 with this requirments:
 1. Work with MySQL. In db contain table books with 1e5 records. Work with clear SQL, not a ORM or Query Builder
 2. Contains 3 controlers:
-2.1 Add records to db
-2.2 Return data. Need sort and filtering in any field with offset and limit
-2.3 Change
+- Add records to db
+- Return data. Need sort and filtering in any field with offset and limit
+- Change
 
 INSTALL
 
