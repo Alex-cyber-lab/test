@@ -44,4 +44,4 @@ Body form-data example:
 - description: "This book is published..."
 - image: "set path to default png image"
 
-* - required field
+* required field
